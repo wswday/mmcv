@@ -42,7 +42,7 @@ EXT_MODULES = [
 ]
 
 setup(
-    name='mmcv',
+    name='mmcv-win',
     version=get_version(),
     description='Open MMLab Computer Vision Foundation',
     long_description=readme(),
@@ -61,9 +61,9 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Topic :: Utilities',
     ],
-    url='https://github.com/open-mmlab/mmcv',
-    author='Kai Chen',
-    author_email='chenkaidev@gmail.com',
+    url='https://github.com/wswday/mmcv',
+    author='wswday',
+    # author_email='chenkaidev@gmail.com',
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     install_requires=install_requires,
